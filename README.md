@@ -1,4 +1,4 @@
-# 5G Open RAN Dynamic Traffic Steering Simulator
+# Traffic Steering in 5G using ORAN
 
 An execution framework designed to simulate, visualize, and analyze intelligent **Traffic Steering** algorithms within an open and virtualized **5G Radio Access Network (Open RAN)** topology.
 
@@ -47,5 +47,5 @@ python oran5g.py
 ## 📈 Visual Figures Rendered
 
 Upon successful execution, the script generates two clean figure panels:
-1. **Figure 1 (Before vs. After Tracking Map):** Displays a side-by-side geographic visualization layout. The left pane flags the high-congestion connection footprint at Cell 3, while the right pane illustrates balanced user connection boundary assignments.
-2. **Figure 2 (Capacity & Throughput Graphs):** A multi-panel engineering chart tracking data-rate split curves alongside fluctuating system resilience waves over heavy user scaling counts.
+1. **steering.png (Before vs. After Tracking Map):** Displays a side-by-side geographic visualization layout. The left pane flags the high-congestion connection footprint at Cell 3, while the right pane illustrates balanced user connection boundary assignments.
+2. **comp.png (Capacity & Throughput Graphs):** A multi-panel engineering chart tracking data-rate split curves alongside fluctuating system resilience waves over heavy user scaling counts.
